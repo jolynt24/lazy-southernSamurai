@@ -1,0 +1,110 @@
+#fileNavigator a {
+ 	position: absolute;
+	right: -100px;
+	transition: 0.3s;
+	padding: 20px;
+	width: 200px;
+	text-decoration: none;
+	font-size: 25px;
+	color: white;
+	border-radius: 30px 0 0 30px;	
+ }
+ #fileNavigator a:hover {
+ 	background-color:#191919;
+	right:0;
+ }
+ #PersonalInfo {
+ 	background-color:#000;
+ 	top: 10px;
+ }
+ #EJournals {
+	top: 79px;
+	background-color: #000;
+ }
+ #Papers {
+	top: 148px;
+	background-color: #000;
+ }
+ #Conferences {
+	top: 217px;				
+	background-color: #000;
+ }
+ #Others {
+	top: 286px;				
+	background-color: #000;
+ }
+ #BackHome {
+	top: 355px;
+	background-color: #000;
+ }
+ #Help {
+ 	top: 424px;
+ 	background-color: #000;
+ }
+ body {
+ 	overflow-x: hidden;
+ }
+ div.tab {
+    float: left;
+    background-color: #0c0c0c;
+    font-size: 20px;
+    color: white;
+    width: 9%;
+    height: 100px;
+ }
+ div.tab button {
+    display: block;
+    background-color: #0c0c0c;
+    color: white;
+    padding: 15px 10px;
+    width: 100%;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+ }
+ div.tab button:hover {
+    border: 2px solid #858585;
+    background-color: #ddd;
+    color:black;
+ }
+ div.tab button.active {
+    background-color: #676767;
+ }
+ .addNew {
+    float: left;
+    padding: 0px 12px;
+    width: 70%;
+    border-left: none;
+    height: 300px;
+    display:block;
+ }
+ label {
+ 	width:400px;
+ 	display: inline-block;
+ 	font-weight:bold;
+ 	color:blue;
+ 	margin:0 0 3px 52px;
+ }
+ input[type=text], input[type=date],input[type=file] {
+	width:50%;
+	margin-bottom:3px;
+ }
+ .formStyle{
+ 	
+ }
+ .formSubmit {
+ 	background-color: green;
+ 	color:white;
+ 	margin: 20px 90%;
+ 	border: 0 solid white;
+ 	font-size:20px;
+ }
+ .formReset {
+ 	background-color: gray;
+ 	color:white;
+ 	margin: 40px 5%;
+ 	border: 0 solid white;
+ 	font-size:15px;
+ }
